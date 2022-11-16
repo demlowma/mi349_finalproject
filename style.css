@@ -1,0 +1,30 @@
+html {
+    background: black;
+}
+
+header {
+    background: #fff;
+    position: sticky;
+    top: 0px;
+}
+
+ul > li{
+    display: inline-block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid black;
+    background: #fff;
+}
+
+h1 {
+    size: 3em;
+    text-align: center;
+}
+
+.student {
+    text-align: center;
+}
