@@ -1,15 +1,37 @@
 html {
-    background: black;
+    background: #131515;
 }
 
 header {
-    background: #fff;
+    word-spacing: 5 px;
+    margin: auto;
+    line-height: 40px;
+    background: #339989;
     position: sticky;
     top: 0px;
 }
 
 ul > li{
     display: inline-block;
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
 }
 
 body {
@@ -17,14 +39,17 @@ body {
     margin: 40px;
     padding: 40px;
     border-top: 10px solid black;
-    background: #fff;
+    background: #fffafb;
 }
 
+
 h1 {
+    color:#131515;
     size: 3em;
     text-align: center;
 }
 
 .student {
+    color: #131515;
     text-align: center;
 }
