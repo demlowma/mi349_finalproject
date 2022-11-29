@@ -3,7 +3,6 @@ html {
 }
 
 header {
-    word-spacing: 5 px;
     margin: auto;
     line-height: 40px;
     background: #339989;
@@ -45,11 +44,39 @@ body {
 
 h1 {
     color:#131515;
-    size: 3em;
+    font-size: 45px;
+    text-align: center;
+}
+
+.proj-desc{
+    display: block;
+}
+
+h2, h3, h4 {
+    color:#131515;
+    font-size: 21pt;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+form {
+    display: flexbox;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+button {
+    display: flex;
     text-align: center;
 }
 
 .student {
     color: #131515;
+    font-size: 25px;
     text-align: center;
 }
